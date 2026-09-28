@@ -12,25 +12,31 @@
 
 ---
 
-An AI-powered agricultural monitoring framework designed to help detect crop pests, analyze field conditions, and support sustainable agricultural decision-making through an agentic workflow.
+<samp>An AI-powered agricultural monitoring framework designed to help detect crop pests, analyze field conditions, and support sustainable agricultural decision-making through an agentic workflow.</samp>
 
-## Overview
+---
 
-Agricultural crops can be affected by pests before visible damage becomes widespread. This project explores an AI-based approach for monitoring crop conditions and assisting with pest-related decisions.
+<div align="center"><samp><b>overview</b></samp></div>
 
-The system combines AI/ML concepts with a practical monitoring dashboard to provide a structured workflow for agricultural observation, analysis, and response.
+<samp>Agricultural crops can be affected by pests before visible damage becomes widespread. This project explores an AI-based approach for monitoring crop conditions and assisting with pest-related decisions.</samp>
 
-## Key Features
+<samp>The system combines AI/ML concepts with a practical monitoring dashboard to provide a structured workflow for agricultural observation, analysis, and response.</samp>
 
-- AI-assisted pest monitoring
-- Agent-based analysis workflow
-- Crop and field condition monitoring
-- Pest-related data analysis
-- Actionable recommendations
-- Web-based monitoring dashboard
-- Modular architecture for future sensor and model integration
+---
 
-## Project Architecture
+<div align="center"><samp><b>key features</b></samp></div>
+
+- <samp>AI-assisted pest monitoring</samp>
+- <samp>Agent-based analysis workflow</samp>
+- <samp>Crop and field condition monitoring</samp>
+- <samp>Pest-related data analysis</samp>
+- <samp>Actionable recommendations</samp>
+- <samp>Web-based monitoring dashboard</samp>
+- <samp>Modular architecture for future sensor and model integration</samp>
+
+---
+
+<div align="center"><samp><b>project architecture</b></samp></div>
 
 ```text
 Field / Input Data
@@ -58,52 +64,69 @@ Field / Input Data
 +-------------------+
 ```
 
-## Technology Areas
+---
 
-- Artificial Intelligence
-- Machine Learning
-- Agentic AI
-- Python
-- Web development
-- Data analysis
-- Agricultural technology
+<div align="center"><samp><b>technology areas</b></samp></div>
 
-## Dashboard
+- <samp>Artificial Intelligence</samp>
+- <samp>Machine Learning</samp>
+- <samp>Agentic AI</samp>
+- <samp>Python</samp>
+- <samp>Web development</samp>
+- <samp>Data analysis</samp>
+- <samp>Agricultural technology</samp>
 
-The project includes a web dashboard for presenting monitoring information and AI-generated insights in a user-friendly interface.
+---
 
-## Project Goals
+<div align="center"><samp><b>dashboard</b></samp></div>
 
-1. Improve early awareness of potential pest problems.
-2. Organize agricultural monitoring data in one place.
-3. Use AI-assisted analysis to support decision-making.
-4. Reduce unnecessary resource usage through targeted intervention.
-5. Provide a foundation that can be extended with real-world agricultural sensors and models.
+<samp>The project includes a web dashboard for presenting monitoring information and AI-generated insights in a user-friendly interface.</samp>
 
-## Future Improvements
+---
 
-- Real-time IoT sensor integration
-- Image-based pest detection
-- Weather and environmental data integration
-- Automated alerts
-- Crop-specific predictive models
-- Historical trend analysis
-- Mobile-friendly monitoring
-- Integration with autonomous agricultural robots
+<div align="center"><samp><b>project goals</b></samp></div>
 
-## Repository Structure
+1. <samp>Improve early awareness of potential pest problems.</samp>
+2. <samp>Organize agricultural monitoring data in one place.</samp>
+3. <samp>Use AI-assisted analysis to support decision-making.</samp>
+4. <samp>Reduce unnecessary resource usage through targeted intervention.</samp>
+5. <samp>Provide a foundation that can be extended with real-world agricultural sensors and models.</samp>
 
-The repository contains the application source code, dashboard components, AI/ML components, configuration files, and supporting project resources.
+---
 
-## Project Context
+<div align="center"><samp><b>future improvements</b></samp></div>
 
-This project was developed as an academic team project focused on applying AI and agentic systems to a real-world agricultural problem.
+- <samp>Real-time IoT sensor integration</samp>
+- <samp>Image-based pest detection</samp>
+- <samp>Weather and environmental data integration</samp>
+- <samp>Automated alerts</samp>
+- <samp>Crop-specific predictive models</samp>
+- <samp>Historical trend analysis</samp>
+- <samp>Mobile-friendly monitoring</samp>
+- <samp>Integration with autonomous agricultural robots</samp>
 
-## Author
+---
 
-**Yoson**  
-GitHub: https://github.com/yo5on
+<div align="center"><samp><b>repository structure</b></samp></div>
 
-## License
+<samp>The repository contains the application source code, dashboard components, AI/ML components, configuration files, and supporting project resources.</samp>
 
-This project is intended for educational and project-development purposes.
+---
+
+<div align="center"><samp><b>project context</b></samp></div>
+
+<samp>This project was developed as an academic team project focused on applying AI and agentic systems to a real-world agricultural problem.</samp>
+
+---
+
+<div align="center"><samp><b>author</b></samp></div>
+
+<samp><b>Yoson</b></samp>
+
+<samp>GitHub: https://github.com/yo5on</samp>
+
+---
+
+<div align="center"><samp><b>license</b></samp></div>
+
+<samp>This project is intended for educational and project-development purposes.</samp>
