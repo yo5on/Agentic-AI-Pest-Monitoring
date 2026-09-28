@@ -1,4 +1,16 @@
-# Agentic AI-Based Pest Monitoring Framework
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/yo5on/yo5on/main/hd-projects.svg" width="620" alt="projects"/>
+
+<samp><b>AGENTIC AI-BASED PEST MONITORING</b></samp>
+
+<samp>python · ai/ml · agentic ai · web dashboard</samp>
+
+**[Repository](https://github.com/yo5on/Agentic-AI-Pest-Monitoring)**
+
+</div>
+
+---
 
 An AI-powered agricultural monitoring framework designed to help detect crop pests, analyze field conditions, and support sustainable agricultural decision-making through an agentic workflow.
 
@@ -85,12 +97,11 @@ The repository contains the application source code, dashboard components, AI/ML
 
 ## Project Context
 
-This project was developed as an academic/team project focused on applying AI and agentic systems to a real-world agricultural problem.
+This project was developed as an academic team project focused on applying AI and agentic systems to a real-world agricultural problem.
 
 ## Author
 
-**Yoson**
-
+**Yoson**  
 GitHub: https://github.com/yo5on
 
 ## License
