@@ -150,11 +150,3 @@ Field / Input Data
 
 <samp>GitHub: https://github.com/yo5on</samp>
 </div>
-
----
-
-<div align="center">
-<samp><b>License</b></samp>
-</div>
-
-<samp>This project is intended for educational and project-development purposes.</samp>
