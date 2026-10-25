@@ -1,149 +1,65 @@
 <div align="center">
-<samp><b>AGENTIC AI-BASED PEST MONITORING</b></samp>
 
-<samp>python · ai/ml · agentic ai · web dashboard</samp>
+<samp><b>AGENTIC AI PEST MONITORING</b></samp>
+
+<samp>agriculture · dashboard prototype · html · bootstrap · chart.js</samp>
 
 </div>
 
 ---
 
-<div align="center"><samp>An AI-powered agricultural monitoring framework designed to help detect crop pests, analyze field conditions, and support sustainable agricultural decision-making through an agentic workflow.</samp></div>
+<div align="center"><samp>A front-end concept for an agricultural pest-monitoring dashboard. This repository currently contains a single static HTML page, not a working pest-detection or agentic AI pipeline.</samp></div>
 
 ---
 
-<div align="center">
-<samp><b>Project Overview</b></samp>
-</div>
+<div align="center"><samp><b>What Is Included</b></samp></div>
 
-<samp>Agricultural crops can be affected by pests before visible damage becomes widespread. This project explores an AI-based approach for monitoring crop conditions and assisting with pest-related decisions.</samp>
-
-<samp>The system combines AI/ML concepts with a practical monitoring dashboard to provide a structured workflow for agricultural observation, analysis, and response.</samp>
-
----
-
-<div align="center">
-<samp><b>Key Features</b></samp>
-</div>
-
-- <samp>AI-assisted pest monitoring</samp>
-- <samp>Agent-based analysis workflow</samp>
-- <samp>Crop and field condition monitoring</samp>
-- <samp>Pest-related data analysis</samp>
-- <samp>Actionable recommendations</samp>
-- <samp>Web-based monitoring dashboard</samp>
-- <samp>Modular architecture for future sensor and model integration</samp>
+- <samp><code>dashboard.html</code> — a dark dashboard layout branded as PestMonitor AI.</samp>
+- <samp>Example summary cards for scans, pests, healthy crops and high-severity detections.</samp>
+- <samp>A sample recent-detections table and a doughnut chart rendered with Chart.js.</samp>
+- <samp>Bootstrap 5.3.3 and Bootstrap Icons 1.11.3, loaded from jsDelivr.</samp>
 
 ---
 
-<div align="center">
-<samp><b>Project Architecture</b></samp>
-</div>
+<div align="center"><samp><b>Run the Prototype</b></samp></div>
 
-```text
-Field / Input Data
-       |
-       v
-+-------------------+
-| Data Collection   |
-+-------------------+
-       |
-       v
-+-------------------+
-| AI / ML Analysis  |
-+-------------------+
-       |
-       v
-+-------------------+
-| Agentic Decision  |
-| & Recommendation  |
-+-------------------+
-       |
-       v
-+-------------------+
-| Monitoring        |
-| Dashboard         |
-+-------------------+
+1. <samp>Clone or download this repository.</samp>
+
+```bash
+git clone https://github.com/yo5on/Agentic-AI-Pest-Monitoring.git
+cd Agentic-AI-Pest-Monitoring
 ```
 
----
-
-<div align="center">
-<samp><b>Technology Areas</b></samp>
-</div>
-
-- <samp>Artificial Intelligence</samp>
-- <samp>Machine Learning</samp>
-- <samp>Agentic AI</samp>
-- <samp>Python</samp>
-- <samp>Web development</samp>
-- <samp>Data analysis</samp>
-- <samp>Agricultural technology</samp>
+2. <samp>Open <code>dashboard.html</code> in a web browser. A local web server is optional because the page does not load application data from local files.</samp>
+3. <samp>Allow internet access for the Bootstrap, Bootstrap Icons and Chart.js assets loaded from the CDN.</samp>
 
 ---
 
-<div align="center">
-<samp><b>Dashboard</b></samp>
-</div>
+<div align="center"><samp><b>Current Limitations</b></samp></div>
 
-<samp>The project includes a web dashboard for presenting monitoring information and AI-generated insights in a user-friendly interface.</samp>
-
----
-
-<div align="center">
-<samp><b>Project Goals</b></samp>
-</div>
-
-<samp>1. Improve early awareness of potential pest problems.</samp>
-
-<samp>2. Organize agricultural monitoring data in one place.</samp>
-
-<samp>3. Use AI-assisted analysis to support decision-making.</samp>
-
-<samp>4. Reduce unnecessary resource usage through targeted intervention.</samp>
-
-<samp>5. Provide a foundation that can be extended with real-world agricultural sensors and models.</samp>
+- <samp>The displayed numbers, detections, confidence values and chart segments are hard-coded demo content; they are not real sensor readings or model predictions.</samp>
+- <samp>The Upload Image button, sidebar navigation and search field are visual UI elements only. No upload flow, database, API, alert service, history view or model inference is implemented in this repository.</samp>
+- <samp>The page references <code>logo.png</code>, but a logo asset is not currently included in the repository.</samp>
+- <samp>The repository does not currently include an installable backend, model weights, requirements file or automated test suite.</samp>
 
 ---
 
-<div align="center">
-<samp><b>Future Improvements</b></samp>
-</div>
+<div align="center"><samp><b>Possible Next Steps</b></samp></div>
 
-- <samp>Real-time IoT sensor integration</samp>
-- <samp>Image-based pest detection</samp>
-- <samp>Weather and environmental data integration</samp>
-- <samp>Automated alerts</samp>
-- <samp>Crop-specific predictive models</samp>
-- <samp>Historical trend analysis</samp>
-- <samp>Mobile-friendly monitoring</samp>
-- <samp>Integration with autonomous agricultural robots</samp>
+- <samp>Implement and validate an image-upload flow.</samp>
+- <samp>Connect a real pest-detection model and clearly display its confidence and limitations.</samp>
+- <samp>Replace hard-coded metrics with persisted detection records.</samp>
+- <samp>Implement functional navigation, history, reports and alerts.</samp>
+- <samp>Add setup instructions, tests and a documented backend/API once those parts exist.</samp>
 
 ---
 
-<div align="center">
-<samp><b>Repository Structure</b></samp>
-</div>
-
-<samp>The repository contains the application source code, dashboard components, AI/ML components, configuration files, and supporting project resources.</samp>
-
----
-
-<div align="center">
-<samp><b>Project Context</b></samp>
-</div>
-
-<samp>This project was developed as an academic team project focused on applying AI and agentic systems to a real-world agricultural problem.</samp>
-
----
-
-<div align="center">
-<samp><b>Author</b></samp>
-</div>
+<div align="center"><samp><b>Author</b></samp></div>
 
 <div align="center">
 <samp><strong>Yoson</strong></samp>
 
-<samp>Computer Science student interested in AI/ML, robotics, embedded systems, and automation.</samp>
+<samp>Computer Science student interested in AI/ML, robotics, embedded systems and automation.</samp>
 
-<samp>GitHub: https://github.com/yo5on</samp>
+<samp><a href="https://github.com/yo5on">github.com/yo5on</a></samp>
 </div>
