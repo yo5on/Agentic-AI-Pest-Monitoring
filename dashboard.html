@@ -35,8 +35,17 @@ gap:15px;
 margin-bottom:30px;
 }
 
-.logo img{
+.logo-mark{
 width:60px;
+height:60px;
+flex:0 0 60px;
+border-radius:18px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#2b1b3b;
+color:#FFD600;
+font-size:28px;
 }
 
 .logo h4{
@@ -178,13 +187,62 @@ color:black;
 canvas{
 background:transparent;
 }
+
+
+@media (max-width: 900px) {
+  .sidebar {
+    position: relative;
+    inset: auto;
+    width: auto;
+    margin: 12px;
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .logo { margin-bottom: 12px; }
+
+  .sidebar a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    margin: 4px 2px;
+  }
+
+  .main {
+    margin-left: 0;
+    padding: 18px;
+  }
+
+  .top {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero { padding: 28px; }
+}
+
+@media (max-width: 480px) {
+  .sidebar { padding: 14px; }
+  .sidebar a { font-size: 13px; padding: 9px 10px; }
+  .main { padding: 12px; }
+  .hero { padding: 22px; border-radius: 22px; }
+  .cardx { padding: 18px; border-radius: 20px; }
+  .logo-mark { width: 48px; height: 48px; flex-basis: 48px; }
+}
 </style>
 </head>
 <body>
 
 <div class="sidebar">
 <div class="logo">
-<img src="logo.png">
+<div class="logo-mark" aria-hidden="true"><i class="bi bi-leaf"></i></div>
 <div>
 <h4>PestMonitor AI</h4>
 <span>Agentic AI</span>
