@@ -39,7 +39,7 @@ cd Agentic-AI-Pest-Monitoring
 
 - <samp>The displayed numbers, detections, confidence values and chart segments are hard-coded demo content; they are not real sensor readings or model predictions.</samp>
 - <samp>The Upload Image button, sidebar navigation and search field are visual UI elements only. No upload flow, database, API, alert service, history view or model inference is implemented in this repository.</samp>
-- <samp>The page references <code>logo.png</code>, but a logo asset is not currently included in the repository.</samp>
+- <samp>The brand mark is an inline Bootstrap leaf icon; no external logo asset is required.</samp>
 - <samp>The repository does not currently include an installable backend, model weights, requirements file or automated test suite.</samp>
 
 ---
