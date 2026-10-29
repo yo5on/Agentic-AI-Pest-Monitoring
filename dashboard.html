@@ -115,6 +115,11 @@ font-weight:700;
 color:black;
 }
 
+.hero button:disabled{
+opacity:.72;
+cursor:not-allowed;
+}
+
 .cardx{
 background:#1a1a1a;
 border-radius:25px;
@@ -262,15 +267,15 @@ background:transparent;
 
 <div class="top">
 <h2>Admin</h2>
-<div class="search">
-<i class="bi bi-search"></i> Search...
+<div class="search" role="note" aria-label="Search is a visual placeholder">
+<i class="bi bi-search" aria-hidden="true"></i> Search (prototype only)
 </div>
 </div>
 
 <div class="hero">
 <h1>Agentic AI Pest Monitoring</h1>
-<p>Monitor, analyze and protect crops using AI-powered pest detection.</p>
-<button>Upload Image</button>
+<p id="prototype-note">Prototype preview only: the metrics and detections below are sample data. No AI model or live sensor is connected.</p>
+<button type="button" disabled aria-describedby="prototype-note" title="Image upload is not implemented in this prototype">Upload Image · not connected</button>
 </div>
 
 <div class="row g-4">
