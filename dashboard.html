@@ -242,6 +242,107 @@ background:transparent;
   .logo-mark { width: 48px; height: 48px; flex-basis: 48px; }
 }
 </style>
+
+<style id="dashboard-ui-polish">
+  :root { color-scheme: dark; }
+  body {
+    min-height: 100vh;
+    background:
+      radial-gradient(ellipse at 92% 0%, rgba(106, 27, 154, .18), transparent 34rem),
+      radial-gradient(ellipse at 30% 100%, rgba(255, 214, 0, .035), transparent 30rem),
+      #0d0d0d;
+  }
+  .sidebar {
+    border: 1px solid rgba(205, 180, 255, .14);
+    background: rgba(25, 21, 31, .94);
+    box-shadow: 0 16px 44px rgba(0, 0, 0, .34);
+  }
+  .sidebar a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+  }
+  .sidebar a.active {
+    background: linear-gradient(110deg, rgba(106, 27, 154, .96), rgba(74, 20, 140, .86));
+    border-color: rgba(255, 214, 0, .22);
+    box-shadow: inset 3px 0 #ffd600;
+  }
+  .top { gap: 18px; }
+  .search {
+    border: 1px solid rgba(205, 180, 255, .16);
+    background: rgba(31, 27, 37, .92);
+  }
+  .search:focus {
+    outline: 2px solid #ffd600;
+    outline-offset: 2px;
+  }
+  .hero {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 214, 0, .24);
+    background:
+      radial-gradient(circle at 86% 10%, rgba(255, 214, 0, .2), transparent 15rem),
+      linear-gradient(125deg, #4a148c 0%, #6a1b9a 58%, #31104d 100%);
+    box-shadow: 0 18px 48px rgba(55, 12, 88, .28);
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: -110px;
+    bottom: -160px;
+    border: 1px solid rgba(255, 214, 0, .24);
+    border-radius: 50%;
+    box-shadow: 0 0 0 28px rgba(255, 214, 0, .035), 0 0 0 58px rgba(255, 214, 0, .025);
+    pointer-events: none;
+  }
+  .hero button {
+    min-height: 44px;
+    box-shadow: 0 6px 18px rgba(20, 10, 25, .22);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+  .hero button:focus-visible,
+  .sidebar a:focus-visible {
+    outline: 2px solid #ffd600;
+    outline-offset: 3px;
+  }
+  .cardx {
+    border: 1px solid rgba(205, 180, 255, .11);
+    background: linear-gradient(145deg, #201b28, #17151b);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, .24);
+    transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+  }
+  .stat-icon {
+    border: 1px solid rgba(255, 214, 0, .12);
+    background: linear-gradient(145deg, #352044, #24172d);
+  }
+  .table thead th { letter-spacing: .04em; font-size: .78rem; }
+  .table tbody tr { transition: background-color 140ms ease; }
+  .table tbody tr:hover td { background: #241d2b; }
+  @media (hover: hover) {
+    .sidebar a:hover { transform: translateX(2px); }
+    .hero button:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(20, 10, 25, .28); }
+    .cardx:hover { border-color: rgba(205, 180, 255, .24); box-shadow: 0 16px 38px rgba(0, 0, 0, .3); }
+  }
+  @media (max-width: 900px) {
+    .sidebar { box-shadow: 0 10px 28px rgba(0, 0, 0, .24); }
+    .sidebar a { display: inline-flex; }
+  }
+  @media (max-width: 480px) {
+    .top { gap: 10px; }
+    .hero { padding: 22px 18px; }
+    .hero h1 { font-size: clamp(1.6rem, 8vw, 2.25rem); }
+    .cardx { border-radius: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sidebar a, .hero button, .cardx, .table tbody tr { transition: none; }
+    .sidebar a:hover, .hero button:hover:not(:disabled) { transform: none; }
+  }
+</style>
+
 </head>
 <body>
 
